@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Dashboard = ({ events }) => (
   <div className="dashboard">
-    <h1>Event Dashboard</h1>
+    <h1>Event Management </h1>
     <ul>
       {events.map((event) => (
         <li key={event.id}>

@@ -6,8 +6,8 @@ import RSVPForm from './components/RSVPForm/RSVPForm';
 
 function App() {
   const [events] = useState([
-    { id: 1, name: 'React Meetup', description: 'Learn React!', date: '2024-01-10', location: 'Online' },
-    { id: 2, name: 'JavaScript Conference', description: 'Deep dive into JS.', date: '2024-02-15', location: 'New York' },
+    { id: 1, name: 'Meetup', description: 'Learn React!', date: '2024-01-10', location: 'Online' },
+    { id: 2, name: 'Conference', description: 'Deep dive into JS.', date: '2024-02-15', location: 'New York' },
   ]);
 
   const handleRSVP = (name) => {
